@@ -1,0 +1,143 @@
+/*
+colors : dimgrey, lightgrey
+ */
+
+a {
+	color           : #363535;
+	text-decoration : none;
+}
+
+.cover-block .image-container {
+	display : none;
+}
+
+.header {
+	display : none;
+}
+
+.list-container {
+	position         : relative;
+	background-color : #FFF;
+	border           : none;
+	width            : 1058px;
+	margin-bottom    : 0;
+	margin-right     : auto;
+	margin-left      : auto;
+	text-align       : left;
+}
+
+.list-menu-float {
+	position : fixed;
+	display  : contents;
+	top      : 0;
+	width    : 0;
+	border   : none;
+	z-index  : 1;
+}
+
+.list-menu-float .icon-menu {
+	position                           : relative;
+	background-color                   : transparent;
+	display                            : inline-block;
+	width                              : 50px;
+	height                             : 50px;
+	opacity                            : 100%;
+	-moz-transition-property           : all;
+	-o-transition-property             : all;
+	-webkit-transition-property        : all;
+	transition-property                : all;
+	-moz-transition-duration           : 0.3s;
+	-o-transition-duration             : 0.3s;
+	-webkit-transition-duration        : 0.3s;
+	transition-duration                : 0.3s;
+	-moz-transition-timing-function    : ease-in-out;
+	-o-transition-timing-function      : ease-in-out;
+	-webkit-transition-timing-function : ease-in-out;
+	transition-timing-function         : ease-in-out;
+}
+
+.list-unit .list-status-title .text {
+	display        : table-cell;
+	width          : 1024px;
+	height         : 38px;
+	font-size      : 2.0em;
+	color          : #FFF;
+	font-weight    : bold;
+	font-family    : 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+	text-align     : left;
+	vertical-align : middle;
+}
+
+.list-unit .list-status-title {
+	position         : relative;
+	display          : table;
+	background-color : dimgrey;
+	width            : 1024px;
+	height           : 38px;
+}
+
+/* Profile image*/
+.list-menu-float .icon-menu.profile {
+	background-size : cover;
+	border-radius   : 50%;
+}
+
+/* Form with Logout and Settings */
+form {
+	display    : inline-block;
+	margin-top : 0;
+}
+
+.list-table .list-table-data .data {
+	display        : table-cell;
+	padding        : 4px;
+	text-align     : center;
+	vertical-align : middle;
+	border-bottom  : none;
+}
+
+tr > tbody{
+	display: contents;
+}
+
+/* Lateral bar with the color the status */
+.list-table .list-table-data .data.status {
+	width : 10px;
+}
+
+.list-table .list-table-header .header-title.image {
+	width : auto;
+}
+
+.list-table .list-table-data .data.image .image {
+	width   : 80px;
+	height  : auto;
+	border  : black 2px solid;
+	padding : 2px;
+}
+
+/* title header */
+.list-table .list-table-header .header-title.title {
+	padding-left : 8px;
+	text-align   : left;
+	width        : 600px;
+
+}
+
+.list-table .list-table-data .data.title {
+	padding-left : 8px;
+	text-align   : left;
+	display      : block;
+}
+
+.list-table .list-table-data .data.title .link {
+	font-size   : 1.4em;
+	font-weight : bold;
+}
+
+/* Edit - More bottoms */
+.list-table .list-table-data .data.title .add-edit-more {
+	float        : none;
+	margin-right : 10px;
+	font-size    : 0.9em;
+}
