@@ -3,141 +3,236 @@ colors : dimgrey, lightgrey
  */
 
 a {
-	color           : #363535;
-	text-decoration : none;
-}
-
-.cover-block .image-container {
-	display : none;
-}
-
-.header {
-	display : none;
-}
-
-.list-container {
-	position         : relative;
-	background-color : #FFF;
-	border           : none;
-	width            : 1058px;
-	margin-bottom    : 0;
-	margin-right     : auto;
-	margin-left      : auto;
-	text-align       : left;
-}
-
-.list-menu-float {
-	position : fixed;
-	display  : contents;
-	top      : 0;
-	width    : 0;
-	border   : none;
-	z-index  : 1;
-}
-
-.list-menu-float .icon-menu {
-	position                           : relative;
-	background-color                   : transparent;
-	display                            : inline-block;
-	width                              : 50px;
-	height                             : 50px;
-	opacity                            : 100%;
-	-moz-transition-property           : all;
-	-o-transition-property             : all;
-	-webkit-transition-property        : all;
-	transition-property                : all;
-	-moz-transition-duration           : 0.3s;
-	-o-transition-duration             : 0.3s;
-	-webkit-transition-duration        : 0.3s;
-	transition-duration                : 0.3s;
-	-moz-transition-timing-function    : ease-in-out;
-	-o-transition-timing-function      : ease-in-out;
-	-webkit-transition-timing-function : ease-in-out;
-	transition-timing-function         : ease-in-out;
-}
-
-.list-unit .list-status-title .text {
-	display        : table-cell;
-	width          : 1024px;
-	height         : 38px;
-	font-size      : 2.0em;
-	color          : #FFF;
-	font-weight    : bold;
-	font-family    : 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
-	text-align     : left;
-	vertical-align : middle;
-}
-
-.list-unit .list-status-title {
-	position         : relative;
-	display          : table;
-	background-color : dimgrey;
-	width            : 1024px;
-	height           : 38px;
-}
-
-/* Profile image*/
-.list-menu-float .icon-menu.profile {
-	background-size : cover;
-	border-radius   : 50%;
+    color           : #363535;
+    text-decoration : none;
 }
 
 /* Form with Logout and Settings */
 form {
-	display    : inline-block;
-	margin-top : 0;
+    display    : inline-block;
+    margin-top : 0;
+}
+
+.cover-block .image-container {
+    display : none;
+}
+
+.header {
+    display : none;
+}
+
+.list-container {
+    position         : relative;
+    background-color : #FFF;
+    border           : none;
+    width            : 1058px;
+    margin-bottom    : 0;
+    margin-right     : auto;
+    margin-left      : auto;
+    text-align       : left;
+}
+
+.list-menu-float {
+    position : fixed;
+    display  : contents;
+    top      : 0;
+    width    : 0;
+    border   : none;
+    z-index  : 1;
+}
+
+.list-menu-float .icon-menu {
+    position         : relative;
+    background-color : transparent;
+    display          : inline-block;
+    width            : 50px;
+    height           : 50px;
+    opacity          : 100%;
+}
+
+/* Profile image*/
+.list-menu-float .icon-menu.profile {
+    background-size : cover;
+    border-radius   : 50%;
+}
+
+.list-menu-float .icon-menu:not(.profile):hover {
+    background-color : lightgray;
+    width            : 145px;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+    background-color : lightgray;
+}
+
+.list-table .list-table-header {
+    display : none;
 }
 
 .list-table .list-table-data .data {
-	display        : table-cell;
-	padding        : 4px;
-	text-align     : center;
-	vertical-align : middle;
-	border-bottom  : none;
+
+    padding        : 4px;
+    text-align     : left;
+    vertical-align : middle;
+    border-bottom  : none;
 }
 
-tr > tbody{
-	display: contents;
+.list-table .list-table-data .data.score {
+    display : block;
 }
 
-/* Lateral bar with the color the status */
-.list-table .list-table-data .data.status {
-	width : 10px;
+.list-table .list-table-data .data.score:before {
+    content : "Score: ";
 }
 
-.list-table .list-table-header .header-title.image {
-	width : auto;
+.list-table .list-table-data .data.chapter {
+    display : block;
 }
 
+.list-table .list-table-data .data.chapter div {
+    display : inline-block;
+}
+
+.list-table .list-table-data .data.chapter:before {
+    content : "Chapter: ";
+}
+
+.list-table .list-table-data .data.type {
+    display : block;
+}
+
+.list-table .list-table-data .data.tags {
+    word-wrap      : break-word;
+    text-align     : left;
+    vertical-align : top;
+}
+
+.list-table .list-table-data .data.started {
+    display : block;
+}
+
+.list-table .list-table-data .data.started:before {
+    content : "Date Started: ";
+}
+
+.list-table .list-table-data .data.finished {
+    display        : block;
+    width          : 145px;
+    vertical-align : top;
+}
+
+.list-table .list-table-data .data.finished:before {
+    content : "Date Finished: ";
+}
+
+.list-table .list-table-data .data.days {
+    vertical-align : top;
+}
+
+.list-table .list-table-data .data.days:before {
+    content : "Days: ";
+}
+
+.list-table .list-table-data .data.airing-started {
+    display : block;
+    width   : 145px;
+
+}
+
+.list-table .list-table-data .data.airing-started:before {
+    content : "Airing Started: ";
+}
+
+.list-table .list-table-data .data.airing-finished {
+    display : block;
+    width   : 145px;
+
+}
+
+.list-table .list-table-data .data.airing-finished:before {
+    content : "Airing Finished: ";
+}
+
+
+.list-table .list-table-data .data.magazine {
+    vertical-align : top;
+}
+
+/* Image */
 .list-table .list-table-data .data.image .image {
-	width   : 80px;
-	height  : auto;
-	border  : black 2px solid;
-	padding : 2px;
+    width   : 80px;
+    height  : auto;
+    border  : rgba(0, 0, 0, 0.7) 2px solid;
+    padding : 2px;
 }
 
-/* title header */
-.list-table .list-table-header .header-title.title {
-	padding-left : 8px;
-	text-align   : left;
-	width        : 600px;
-
+/* Lateral bar with the color of the status */
+.list-table .list-table-data .data.status {
+    width : 10px;
 }
 
 .list-table .list-table-data .data.title {
-	padding-left : 8px;
-	text-align   : left;
-	display      : block;
-}
-
-.list-table .list-table-data .data.title .link {
-	font-size   : 1.4em;
-	font-weight : bold;
+    padding-left : 4px;
+    text-align   : left;
+    border       : none;
+    display      : block;
 }
 
 /* Edit - More bottoms */
 .list-table .list-table-data .data.title .add-edit-more {
-	float        : none;
-	margin-right : 10px;
-	font-size    : 0.9em;
+    float     : none;
+    font-size : 0.9em;
 }
+
+/* Airing text */
+.list-table .list-table-data .data.title .content-status {
+    color     : #B11E1E;
+    font-size : 0.9em;
+    display   : block;
+}
+
+.list-table .list-table-data .data.title .link {
+    font-size   : 1.4em;
+    font-weight : bold;
+}
+
+
+.list-unit .list-stats {
+    display          : none;
+    background-color : LIGHTGRAY;
+    width            : 1024px;
+    height           : 30px;
+    line-height      : 30px;
+    color            : black;
+    text-align       : center;
+}
+
+.list-unit .list-status-title {
+    position         : relative;
+    display          : table;
+    background-color : dimgrey;
+    width            : 1024px;
+    height           : 38px;
+}
+
+.list-unit .list-status-title .text {
+    display        : table-cell;
+    width          : 1024px;
+    height         : 38px;
+    padding-left   : 10px;
+    font-size      : 2.0em;
+    color          : #FFF;
+    font-weight    : bold;
+    font-family    : 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
+    text-align     : left;
+    vertical-align : middle;
+}
+
+
+/* Color under the Status-menu */
+.status-menu-container .status-menu .status-button:after {
+    background-color : lightgray;
+    height           : 3px;
+}
+
+
