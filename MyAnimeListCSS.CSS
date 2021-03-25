@@ -89,6 +89,10 @@ form {
     display : block;
 }
 
+.list-table .list-table-data .data.progress {
+    display : block;
+}
+
 .list-table .list-table-data .data.chapter div {
     display : inline-block;
 }
@@ -133,6 +137,10 @@ form {
     content : "Days: ";
 }
 
+.list-table .list-table-data .data.season {
+    vertical-align : top;
+}
+
 .list-table .list-table-data .data.airing-started {
     display : block;
     width   : 145px;
@@ -155,6 +163,10 @@ form {
 
 
 .list-table .list-table-data .data.magazine {
+    vertical-align : top;
+}
+
+.list-table .list-table-data .data.studio {
     vertical-align : top;
 }
 

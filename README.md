@@ -3,17 +3,16 @@
 This is a minimalist design for MyAnimeList, 
 focused in simplicity.
 
-###Status: In progress
+##### Status: In progress
 
 ## Features
 #### TO DO
-- Put the info of the anime/manga enlisted with a border.
 - Change the animation of the account bottoms.
-- Support to anime list
 
 #### DONE
+- Put the info of the anime/manga enlisted with a border.
 - Move the account lateral bar in the top of the page.
-- Support for manga list
+- Support for anime/manga list
 
 ## Image Preview
 ![Image](assets/PreviewList.jpg)
