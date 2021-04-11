@@ -131,6 +131,7 @@ form {
 
 .list-table .list-table-data .data.days {
     vertical-align : top;
+    width          : 65px;
 }
 
 .list-table .list-table-data .data.days:before {
@@ -139,6 +140,7 @@ form {
 
 .list-table .list-table-data .data.season {
     vertical-align : top;
+    display        : block;
 }
 
 .list-table .list-table-data .data.airing-started {
