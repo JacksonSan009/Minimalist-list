@@ -10,6 +10,7 @@ If you wanna contribute just make a request.
 ## Features
 #### TO DO
 - Change the animation of the account bottoms.
+- Able to change the pallet of colors.
 
 #### DONE
 - Put the info of the anime/manga enlisted with a border.
