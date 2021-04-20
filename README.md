@@ -5,38 +5,43 @@ focused in simplicity.
 
 ##### Status: In progress
 
-If you wanna contribute just make a request.
+If you wanna contribute, make a request.
 
 ## Features
-#### TO DO
-- Change the animation of the account bottoms.
-- Able to change the pallet of colors.
 
 #### DONE
-- Put the info of the anime/manga enlisted with a border.
-- Move the account lateral bar in the top of the page.
-- Support for anime/manga list
+* Put the info of the anime/manga enlisted with a border.
+* Move the account lateral bar in the top of the page.
+* Support for anime/manga list
+
+#### TO DO
+* Change the animation of the account bottoms.
+* Made a dark theme.
 
 ## Image Preview
 ![Image](assets/PreviewList.jpg)
 
-## Installation and Settings
-1. Go to Settings > List
-2. In anime columns select next:
+## Installation
+1. Go to **Settings** > **List**
+2. Select the next columns: 
+    * In anime columns 
     
-    ![Anime-columns](assets/Anime-columns.jpg)
-3. In manga columns select next: 
+        ![Anime-columns](assets/Anime-columns.jpg)
     
-    ![Manga-columns](assets/Manga-Columns.jpg) 
-4. Go to Settings > List Style Design
+    * In manga columns 
+    
+        ![Manga-columns](assets/Manga-Columns.jpg)
+     
+3. Go to **Settings** > **List Style Design**
 
-    Switch to Modern. 
+    Switch to **Modern**. 
 
-    ![Switch-Template](assets/Switch.jpg) 
-5. Select any template, and the option select No for
-the cover and the background.
+    ![Switch-Template](assets/Switch.jpg)
+     
+4. Select any template, and select **No** 
+for the **cover** and the **background**
 
     ![Cover-Non](assets/Cover-non.jpg) 
     
-6. In the tap Add Custom CSS, add the code in the 
-[MyAnimeListCSS.CSS](MyAnimeListCSS.CSS) archive.
+5. In the tap Add Custom CSS, add the code in the 
+[MyAnimeListCSS.CSS](MyAnimeListCSS.CSS) archive
