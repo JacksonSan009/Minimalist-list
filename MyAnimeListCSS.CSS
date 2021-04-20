@@ -183,6 +183,7 @@ form {
 /* Lateral bar with the color of the status */
 .list-table .list-table-data .data.status {
     width : 10px;
+    padding: 0;
 }
 
 .list-table .list-table-data .data.title {
