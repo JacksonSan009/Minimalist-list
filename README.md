@@ -1,27 +1,27 @@
 # Minimalist MAL list
 
-This is a minimalist design for MyAnimeList, 
-focused in simplicity.
+This is a minimalist design for MyAnimeList, focused in simplicity.
 
-
-If you wanna contribute, make a request.
+Tested in Edge navigator.
 
 ##### Status: In progress
 
 ## Features
 
 #### DONE
-* Put the info of the anime/manga enlisted with a border.
+* Put the info enlisted with a border.
 * Move the account lateral bar in the top of the page.
 * Support for anime/manga list.
 * Have a dark theme.
 
 #### TO DO
-* Change the animation of the account bottoms.
+* Change the animation in navigation bottoms
+    - Clear Theme
+    - ~~Dark theme~~
 
 ## Pallete tones 
 * Dark theme: https://colorhunt.co/palette/201882
-* Clear theme: https://colorhunt.co/palette/1649
+<!-- * Clear theme: https://colorhunt.co/palette/1649 -->
 
 ## Image Preview
 * [White theme](WhiteTheme.CSS)
