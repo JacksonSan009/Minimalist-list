@@ -198,7 +198,7 @@ form {
 
 .list-table .list-table-data .data.tags {
 	word-wrap: break-word;
-	text-align: left;
+	text-align: justify;
 	vertical-align: top;
 	border-left: 1px dashed #52616b;
 	border-right: 1px dashed #52616b;
@@ -246,6 +246,7 @@ form {
 
 .list-table .list-table-data .data.airing-started {
 	display: block;
+	width: 150px;
 }
 
 .list-table .list-table-data .data.airing-started:before {
