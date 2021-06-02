@@ -1,11 +1,11 @@
 a {
-	color: #363535;
+	color: #1e2022;
 	text-decoration: none;
 }
 
 body {
 	margin: 10px 0 0 0;
-	background-color: #1a1a2e;
+	background-color: #f0f5f9;
 }
 
 /* Form with Logout and Settings */
@@ -24,7 +24,7 @@ form {
 
 .list-container {
 	position: relative;
-	background-color: lightgrey;
+	background-color: #f0f5f9;
 	border: none;
 	width: 1058px;
 	margin-bottom: 0;
@@ -68,7 +68,12 @@ form {
 
 .list-menu-float .icon-menu svg.icon {
 	position: absolute;
-	fill: white;
+	fill: #52616b;
+}
+
+.list-menu-float .icon-menu:hover svg.icon {
+	position: absolute;
+	fill: #1e2022;
 }
 
 .list-menu-float .icon-menu .text {
@@ -77,7 +82,7 @@ form {
 	left: 40px;
 	width: 0;
 	display: inline-block;
-	color: #ffffff;
+	color: #52616b;
 	font-size: 1.4em;
 	font-family: 'Helvetica neue', Helvetica, "lucida grande", tahoma, verdana, arial, sans-serif;
 	text-align: center;
@@ -107,7 +112,7 @@ form {
 .list-menu-float .icon-menu.profile {
 	background-size: cover;
 	border-radius: 50%;
-	border: white 1px solid;
+	border: #c9d6df 3px solid;
 	margin: 4px;
 }
 
@@ -130,7 +135,7 @@ form {
 	height: 50px;
 	line-height: 50px;
 	text-decoration: none;
-	color: #ffffff;
+	color: #52616b;
 	opacity: 1;
 	background-color: transparent;
 }
@@ -153,7 +158,7 @@ form {
 }
 
 .list-table > tbody:nth-of-type(2n+1) {
-	background-color: lightgrey;
+	background-color: transparent;
 }
 
 .list-table .list-table-header {
@@ -198,10 +203,10 @@ form {
 
 .list-table .list-table-data .data.tags {
 	word-wrap: break-word;
-	text-align: left;
+	text-align: justify;
 	vertical-align: top;
-	border-left: 1px dashed #52616b;
-	border-right: 1px dashed #52616b;
+	border-left: 1px dashed #c9d6df;
+	border-right: 1px dashed #c9d6df;
 	width: 180px;
 }
 
@@ -230,8 +235,8 @@ form {
 .list-table .list-table-data .data.days {
 	vertical-align: top;
 	width: 65px;
-	border-left: 1px dashed #52616b;
-	border-right: 1px dashed #52616b;
+	border-left: 1px dashed #c9d6df;
+	border-right: 1px dashed #c9d6df;
 }
 
 .list-table .list-table-data .data.days:before {
@@ -246,6 +251,7 @@ form {
 
 .list-table .list-table-data .data.airing-started {
 	display: block;
+	width: 150px;
 }
 
 .list-table .list-table-data .data.airing-started:before {
@@ -262,13 +268,13 @@ form {
 
 .list-table .list-table-data .data.magazine {
 	vertical-align: top;
-	border-left: 1px dashed #52616b;
+	border-left: 1px dashed #c9d6df;
 	width: 100px;
 }
 
 .list-table .list-table-data .data.studio {
 	vertical-align: top;
-	border-left: 1px dashed #52616b;
+	border-left: 1px dashed #c9d6df;
 	width: 100px;
 }
 
@@ -276,7 +282,7 @@ form {
 .list-table .list-table-data .data.image .image {
 	width: 80px;
 	height: auto;
-	border: rgba(0, 0, 0, 0.7) 2px solid;
+	border: #c9d6df 3px solid;
 	box-sizing: border-box;
 	margin-right: 5px;
 }
@@ -325,7 +331,7 @@ form {
 .list-unit .list-status-title {
 	position: relative;
 	display: table;
-	background-color: #0f3460;
+	background-color: #52616b;
 	width: 1024px;
 	height: 38px;
 	margin-bottom: 4px;
@@ -348,7 +354,7 @@ form {
 .status-menu-container {
 	width: 1058px;
 	height: 46px;
-	background-color: #e94560;
+	background-color: #c9d6df;
 	z-index: 1;
 }
 
@@ -386,11 +392,11 @@ form {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 1.6em;
-	color: white;
+	color: #52616b;
 }
 
 .status-menu-container .status-menu .status-button.on {
-	color: #2db039;
+	color: #52616b;
 	font-weight: bold;
 }
 
