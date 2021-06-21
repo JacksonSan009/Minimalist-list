@@ -4,7 +4,7 @@ This is a minimalist design for MyAnimeList, focused in simplicity.
 
 Feel free to make recommendations and generate a ticket, or fork the project.  
 
-Tested in Edge navigator.
+It was tested in Edge navigator.
 
 ### Project Status: Complete
 
@@ -25,7 +25,10 @@ Tested in Edge navigator.
 * [Dark theme](DarkTheme.CSS)
     
     ![dark](assets/Dark-theme-preview.png)
-    
+
+## How it works? 
+It works by overriding the base CSS of the page, so to change the style of the list you must write new properties that override the base ones.
+
 ## Installation
 1. Go to **Settings** > **List**
 2. Select the next columns: 
