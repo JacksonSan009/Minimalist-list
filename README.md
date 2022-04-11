@@ -52,3 +52,8 @@ for the **cover** and the **background**
     ![Cover-Non](assets/Cover-non.jpg) 
     
 5. In the tap Add Custom CSS, add the code in the theme you want.
+
+## Important Content for develop
+
+- [Moving and customizing individual text and sections on the layout](https://myanimelist.net/forum/?topicid=1929120)
+- [ALL LIST EXTENSIONS AND TUTORIALS FOR MODERN CSS](https://myanimelist.net/forum/?topicid=1499059#msg62601145)
